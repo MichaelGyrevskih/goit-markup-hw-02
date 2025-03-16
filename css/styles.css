@@ -134,7 +134,9 @@ p.section-team
     font-size: 16px
 }
 /* ---------Section-Portfolio----------- */
-
+p.portfolio {
+    color: #434455;
+}
 h2.section-portfolio
 {
     text-align: center;
