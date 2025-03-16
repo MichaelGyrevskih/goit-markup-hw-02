@@ -113,6 +113,10 @@ p
 }
 
 /* ---------Section-AboutUs-----------*/
+p.about
+{
+    color: #434455;
+}
 
 /* ---------Section-Team----------- */
 .section-team 
