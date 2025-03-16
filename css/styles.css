@@ -41,6 +41,9 @@ p
 .title-text {
     color: #2e2f42;
 }
+a.title-text {
+    color: #2e2f42;
+}
 .link
 {
         font-size: 1rem;
