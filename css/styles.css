@@ -51,7 +51,7 @@ ul
     letter-spacing: 0.02em;
     /* color: #434455; */
 }
-.navigacion-text {
+a.navigacion-text {
     color: #2e2f42;
 }
 /* a */
@@ -61,6 +61,10 @@ ul
         line-height: 1.5;
         letter-spacing: 0.02em;
         /* color: #434455; */
+}
+a.home-text
+{
+   color:#434455;
 }
 .link:hover,.link:focus
 {
