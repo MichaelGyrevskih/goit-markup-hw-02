@@ -54,21 +54,25 @@ ul
 a.navigacion-text {
     color: #2e2f42;
 }
-/* a */
-.link
-{
-        font-size: 1rem;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        /* color: #434455; */
+
+.link {
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* color: #434455; */
 }
-a.home-text
-{
-   color:#434455;
+
+a.home-text {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
-.link:hover,.link:focus
-{
-   color: #404bbf;
+
+.link:hover,
+.link:focus
+ {
+    color: #404bbf;
 }
 
 .button
