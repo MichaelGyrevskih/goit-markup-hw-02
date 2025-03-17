@@ -4,8 +4,18 @@ body
     background: #fff;
     color:#434455;
 }
-h1
+a 
 {
+    text-decoration: none;
+}
+ul 
+{
+    list-style: none;
+}
+/* h1 */
+.title
+{
+        background: #2e2f42;
         font-weight: 700;
         font-size: 3.5rem;
         line-height: 1.07;
@@ -13,8 +23,10 @@ h1
         color: #fff;
         text-align: center
 }
-h2 
+/* h2 */
+.headline
 {
+    color: #2e2f42;
     font-weight: 700;
     font-size: 2.25rem;
     line-height: 1.11;
@@ -22,39 +34,39 @@ h2
     text-transform: capitalize;
     text-align: center;
 }
-h3
+/* h3 */
+.subtitle
 {
+    color: #2e2f42;
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-p
+/* p */
+.text
 {
     font-size: 1rem;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    /* color: #434455; */
 }
-
-/* ---------Clases----------- */
-.title-text {
+.navigacion-text {
     color: #2e2f42;
 }
-a.title-text {
-    color: #2e2f42;
-}
+/* a */
 .link
 {
         font-size: 1rem;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        /* color: #434455; */
 }
 .link:hover,.link:focus
 {
    color: #404bbf;
 }
+
 .button
 {
     background: #4d5ae5;
@@ -81,7 +93,14 @@ a.title-text {
         color: #4d5ae5;
 }
 
-.head-span {
+.head-span{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        /* font-size: 1.12rem; */
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
     color: #2e2f42;
 }
 .socials{font-style: normal}
@@ -100,6 +119,13 @@ a.title-text {
 }
 .foot-span
 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    /* font-size: 1.12rem; */
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #f4f4fd;
 }
 .foot-text
@@ -116,31 +142,20 @@ a.title-text {
 }
 
 /* ---------Section-AboutUs-----------*/
-p.about
-{
-    color: #434455;
-}
+
 
 /* ---------Section-Team----------- */
 .section-team 
 {
     background: #f4f4fd;
 }
-
-
+.text-team
+{
+ text-align: center;
+}
 li.section-team
 {
 background-color:#FFFFFF; 
 }
-p.section-team
-{
-    font-size: 16px
-}
-/* ---------Section-Portfolio----------- */
-p.portfolio {
-    color: #434455;
-}
-h2.section-portfolio
-{
-    text-align: center;
-}
+
+/* ---------Section-Portfolio-----------*/
